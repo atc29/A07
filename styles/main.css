@@ -49,10 +49,16 @@ h3 {
 
 /* ---------- Header ---------- */
 header {
-    border-bottom: 2px solid var(--accent-color);
-    background: linear-gradient(30deg, #f6bb73 0%, white 30%, white 65%, #f6bb73 100%);
-    padding: 1em;
-    text-align: center;
+  border-bottom: 2px solid var(--accent-color);
+  background: linear-gradient(
+    30deg,
+    var(--accent-color) 0%,
+    white 30%,
+    white 65%,
+    var(--accent-color) 100%
+  );
+  padding: 1em;
+  text-align: center;
 }
 
 /* Header contents */
@@ -91,10 +97,10 @@ main h1 {
 
 /* Speaker Images */
 main img {
-    border: 4px double var(--accent-color);
-    border-radius: 8px;
-    display: block;
-    margin: 1em auto;
+  border: 4px double var(--accent-color);
+  border-radius: 8px;
+  display: block;
+  margin: 1em 0; /* top and bottom spacing only */
 }
 
 /* Blockquote styling */
