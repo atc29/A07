@@ -49,16 +49,10 @@ h3 {
 
 /* ---------- Header ---------- */
 header {
-  border-bottom: 2px solid var(--accent-color);
-  background: linear-gradient(
-    30deg,
-    var(--accent-color) 0%,
-    white 30%,
-    white 65%,
-    var(--accent-color) 100%
-  );
-  padding: 1em;
-  text-align: center;
+    border-bottom: 2px solid var(--accent-color);
+    background: linear-gradient(30deg, #f6bb73 0%, white 30%, white 65%, #f6bb73 100%);
+    padding: 1em;
+    text-align: center;
 }
 
 /* Header contents */
